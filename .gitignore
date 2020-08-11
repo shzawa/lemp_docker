@@ -1,0 +1,4 @@
+.DS_Store
+postgresql/databases
+php/log
+.vscode
