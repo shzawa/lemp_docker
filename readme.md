@@ -2,11 +2,11 @@
 
 ## ■ ポート
 
-| name        | port  |
-| :---------- | :---- |
-| Nginx       | 8080  |
-| PostgresSQL | 15432 |
-| XDebug      | 9012  |
+| name       | port  |
+| :--------- | :---- |
+| Nginx      | 8080  |
+| PostgreSQL | 15432 |
+| XDebug     | 9012  |
 
 ## ■ 利用方法
 
