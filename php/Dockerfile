@@ -1,5 +1,4 @@
 FROM php:7.3-fpm-alpine3.8
-EXPOSE 80
 RUN apk --update add curl nodejs npm
 RUN set -ex \
   && apk --no-cache add \
