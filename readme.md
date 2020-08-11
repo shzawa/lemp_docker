@@ -1,8 +1,4 @@
-# LNMP (Linux + Nginx + MySQL + PHP)環境構築用 Docker-Compose
-
-## ■ 構成
-
-Nginx(1.11) + MySQL(5.7) + PHP(7.2) + phpMyAdmin
+# LNPP (Linux + Nginx + PostgreSQL + PHP)環境構築用 Docker-Compose リポジトリ
 
 ## ■ ポート
 
@@ -17,7 +13,8 @@ Nginx(1.11) + MySQL(5.7) + PHP(7.2) + phpMyAdmin
 1. `$ git clone git@github.com:hal-tech-club/lamp_env_docker.git`
 2. `$ cd lamp_env_docker`
 3. docker-compose.yml の`POSTGRES_DB`等を適当なものに変える
-4. `$ docker-compose up -d`
+4. `$ docker-compose up --build`
+5. 次回以降からは `$ docker-compose up -d`
 
 ### EX) VSCode 利用時… Xdebug を使用する設定
 
