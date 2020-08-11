@@ -7,7 +7,7 @@ services:
       - 8080:80
     volumes:
       - ./web/default.conf:/etc/nginx/conf.d/default.conf:cached
-      - ./html:/var/www/html
+      - ./html:/var/www/html:cached
     links:
       - php
 
@@ -15,7 +15,7 @@ services:
     container_name: php
     build: ./php
     volumes:
-      - ./html:/var/www/html
+      - ./html:/var/www/html:cached
       - ./php/php.ini:/usr/local/etc/php/php.ini:cached
       - ./php/log:/var/log:cached
     links:
