@@ -6,7 +6,7 @@ services:
     ports:
       - 8080:80
     volumes:
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:cached
+      - ./web/default.conf:/etc/nginx/conf.d/default.conf:cached
       - ./html:/var/www/html
     links:
       - php
@@ -23,9 +23,9 @@ services:
 
   postgres:
     container_name: postgres
-    build: ./postgresql
+    build: ./db
     volumes:
-      - ./postgresql/databases:/var/lib/postgresql/data:z
+      - ./db/data:/var/lib/postgresql/data:z
     ports:
       - 15432:5432
     environment:

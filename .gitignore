@@ -1,4 +1,4 @@
 .DS_Store
-postgresql/databases
+db/data
 php/log
 .vscode
