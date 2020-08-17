@@ -10,8 +10,8 @@
 
 ## ■ 利用方法
 
-1. `$ git clone git@github.com:hal-tech-club/lamp_env_docker.git`
-2. `$ cd lamp_env_docker`
+1. `$ git clone git@github.com:hal-tech-club/docker_laravel.git`
+2. `$ cd docker_laravel`
 3. docker-compose.yml の`POSTGRES_DB`等を適当なものに変える
 4. `$ docker-compose up --build`
 5. 次回以降からは `$ docker-compose up -d`
