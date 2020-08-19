@@ -23,17 +23,18 @@
 ```json
 {
   "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Listen for XDebug",
-      "type": "php",
-      "request": "launch",
-      "port": 9012,
-      "pathMappings": {
-        "/var/www/html": "${workspaceFolder}/html"
-      }
-    }
-  ]
+  "configurations": [{
+    "name": "Listen for XDebug",
+    "type": "php",
+    "request": "launch",
+    "port": 9012,
+    "pathMappings": {
+      "/var/www/html": "${workspaceFolder}"
+    },
+    "ignore": [
+      "**/vendor/**/*.php"
+    ]
+  }]
 }
 ```
 
