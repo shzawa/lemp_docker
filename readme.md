@@ -1,5 +1,15 @@
 # LNPP (Linux + Nginx + PostgreSQL + PHP)環境構築用 Docker-Compose リポジトリ
 
+## ■ 仕様
+
+- Nginx コンテナ
+- PHP コンテナ
+  - Node.js
+  - npm
+  - Composer
+  - Xdebug
+- PostgreSQL コンテナ
+
 ## ■ ポート
 
 | name       | port  |
