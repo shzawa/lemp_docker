@@ -61,12 +61,6 @@ DB_PASSWORD=postgres
 
 ## ■Q&A
 
-Q, Dockerfile にある内容だけじゃツール周りが足りない  
-A, 自分で追加して修正(このリポジトリに PR)してください
-
-Q, PHP の環境情報が見たい  
-A, /html 下に`<?php phpinfo();`と書いた PHP ファイルを作って確認してください
-
 Q, VSCode のデバッグモードってどうやるの  
 A, VSCode の`PHP Debug`という拡張機能をインストール後、上述の launch.json を用意した上で  
 　 任意の php ファイルを開き任意の場所でブレークポイント(行数の左)を設定。  
