@@ -58,9 +58,18 @@
 ~/lnpp_env_docker $ docker-compose exec php ash
 ```
 
+### ● SQLクライアントの接続設定
+
+```dotenv
+host: localhost:15432
+user: postgres
+password: postgres
+database: sample
+```
+
 ### ● Laravel の .env 用設定
 
-```
+```dotenv
 DB_CONNECTION=pgsql
 DB_HOST=postgres
 DB_PORT=5432
